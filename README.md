@@ -1,8 +1,15 @@
-# Adaptive Vehicle Audio Compensation System
+# AVACS (Adaptive Vehicle Audio Compensation System)
 
 An embedded, hardware-in-the-loop application developed in C++ for the Arduino UNO architecture. This system automatically normalizes vehicle audio output relative to ambient road noise by mapping real-time velocity metrics to mechanical servo actuation.
 
 The system acts as a human-factors safety feature, eliminating the need for a driver to manually adjust audio hardware while traveling at higher speeds to compensate for external noise, making it an ideal retrofit for classic or legacy vehicles lacking modern digital interfaces.
+
+
+## Behind the Acronym (AVACS)
+
+In keeping with classic aerospace tradition where system names are highly acronymed, the project was named **AVACS** (**A**daptive **V**ehicle **A**udio **C**ompensation **S**ystem). 
+
+It's a nod to Boeing's famous **AWACS** (Airborne Warning and Control System) aircraft; the mission objective here is slightly different: instead of maintaining a tactical balance between airborne surveillance and battle management, this system manages the tactical balance between highway road noise and the vehicle's volume control.
 
 
 ## Features
@@ -22,6 +29,7 @@ The system acts as a human-factors safety feature, eliminating the need for a dr
 * **Display Interface:** 1.3" 128x64 I2C SH1106 OLED Display Module
 * **Actuator:** SM-S2309S Micro Servo Motor (PWM interface)
 * **Status Indicators:** Red & Green LEDs (with 220-ohm current-limiting resistors)
+
 
 ### Mechanical Design
 The physical interface was designed using Autodesk Fusion to handle the translation of motion from the micro-servo to the hardware dashboard controls. The CAD models are optimized for rapid 3D-printed prototyping:
