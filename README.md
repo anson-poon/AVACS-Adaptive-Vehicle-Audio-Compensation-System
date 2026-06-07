@@ -17,7 +17,7 @@ It's a nod to Boeing's famous **AWACS** (Airborne Warning and Control System) ai
 * **Real-Time Telemetry Parsing:** Decodes streaming serial data from a GPS module to extract accurate velocity metrics.
 * **Actuation Mapping:** Translates velocity values into precise target rotation angles for a servo motor, accounting for mechanical gear ratios.
 * **Mechanical Smoothing:** Implements an incremental dampening loop to transition the servo smoothly between states, preventing sudden mechanical jerks and system strain.
-* **Fault-Tolerant Diagnostics:** Actively monitors GPS signal validity, updating an onboard OLED display over I2C with real-time tracking data and cycling status LEDs to indicate connectivity states.
+* **Fault-Tolerant Diagnostics:** Actively monitors GPS signal, updating an onboard OLED display over I2C with real-time tracking data and cycling status LEDs to indicate connectivity states.
 * **Custom 3D-Printed Integration:** Utilizes 3D-printed gears with calibrated gear ratios, servo motor enclosures, and custom mounts to physically bridge the electronic components to a vehicle's mechanical audio interface.
 
 
